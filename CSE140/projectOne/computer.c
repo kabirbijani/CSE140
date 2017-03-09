@@ -3,7 +3,7 @@
 #include <netinet/in.h>
 #include "computer.h"
 #undef mips			/* gcc already has a def for mips */
-
+//test
 unsigned int endianSwap(unsigned int);
 
 void PrintInfo (int changedReg, int changedMem);
